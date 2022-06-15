@@ -19,10 +19,11 @@ body{
 .home,
 .projects,
 .experience,
-.contact {
+.contact{
     margin: 15px;
     font-weight: bold;
     font-size: 20px;
+    color: rgba(86, 85, 85, 0.845);
 }
 
 .home:hover,
@@ -32,8 +33,9 @@ body{
     margin: 15px;
     font-weight: bold;
     font-size: 21px;
-    color:#324016;
-    cursor: pointer;
+    color:black;
+    cursor:pointer;
     text-decoration: underline;
-    transition: 4ms;
+    transition: .2s ease-in;
+   
 }

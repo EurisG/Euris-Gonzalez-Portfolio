@@ -1,0 +1,39 @@
+body{
+    margin: 30px;
+   background-color: #D9BBA0;
+}
+.navContainer {
+    margin: 10px;
+    /* border: 3px double black; */
+    /* background-color:  */
+    display: flex;
+    justify-content: space-around;
+}
+.navContainer:hover {
+    margin: 10px;
+    transition: 1s;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.home,
+.projects,
+.experience,
+.contact {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home:hover,
+.projects:hover,
+.experience:hover,
+.contact:hover {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 21px;
+    color:#324016;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 4ms;
+}

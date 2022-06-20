@@ -6,17 +6,13 @@ body{
    background-color: #D9BBA0;
 }
 .navContainer {
-    margin: 20px;
-    padding: 10px;
-    /* border: 3px double black; */
-    /* background-color:  */
+    padding: 12px;
     display: flex;
     justify-content: space-around;
+    transition-duration: 1s;
 }
 .navContainer:hover {
-    margin: 10px;
     padding: 20px;
-    transition: 1s;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -29,6 +25,7 @@ body{
     font-weight: bold;
     font-size: 20px;
     color: rgba(86, 85, 85, 0.845);
+    transition: .2s ease-in;
 }
 
 .home:hover,
@@ -41,27 +38,27 @@ body{
     color:black;
     cursor:pointer;
     text-decoration: underline;
-    transition: .2s ease-in;
+    /* transition: .2s ease-in; */
    
 }
 
 .profileContainer{
-    margin-top: 40px;
-    padding: 20px;
-    /* border: solid 2px black; */
-     /* background-color: rgb(255, 255, 255); */
-}
+     background-image: url("https://images.unsplash.com/photo-1547452912-6972ef22a5ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+     padding: 15px;
+     height: 580px;
+   
+} 
 
 .insideProfile{
     padding: 20px;
-    /* text-align: center; */
-    line-height: 40px;
+    line-height: 35px;
 }
 
-.role{
+.role , .nyc{
     color: rgba(86, 85, 85, 0.845);
-
+    margin-left: 10px;
 }
+
 
 .insideProfile img{
     width: 20%;
@@ -74,13 +71,12 @@ body{
 .bio{
    display: flex;
    align-items: center;
-    padding: 20px;
+    padding: 23px;
     width: 70%;
-    height: 50%;
+    height: 300px;
     font-weight: 700;
     text-align: center;
-    border: solid 2px black;
     font-size: 17px;
-    /* background-image: url("https://images.unsplash.com/photo-1547452912-6972ef22a5ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
-    background-size: cover; */
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
 }

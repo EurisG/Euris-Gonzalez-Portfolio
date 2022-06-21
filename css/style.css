@@ -35,10 +35,10 @@ body{
 .home:hover,
 .projects:hover,
 .experience:hover,
-.contact:hover {
+.contact:hover, a:hover {
     margin: 15px;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 22px;
     color:black;
     cursor:pointer;
     text-decoration: underline;

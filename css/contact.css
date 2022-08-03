@@ -42,7 +42,16 @@ body{
     font-size: 22px;
     color:black;
     cursor:pointer;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+   
+}
+
+.contactMe{
+    background-color: white;
+    padding: 75px;
+    text-align: center;
+    line-height: 90px;
+    /* border: solid 15px #D9BBA0; */
    
 }
 

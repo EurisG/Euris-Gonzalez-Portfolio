@@ -48,9 +48,8 @@ body{
 }
 
 .resume {
-    /* border: solid 2px black; */
-    background-color: white;
-    padding: 15px;
+    background-image: url("https://images.unsplash.com/photo-1506494491502-7563f654329e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+    padding: 75px;
     text-align: center;
     
 }
@@ -61,29 +60,27 @@ body{
 }
 
 .work1 {
-    /* border: double 5px grey; */
-    -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0);
-    padding: 15px;
-    line-height: 40px;
+    border: inset 10px grey;
+    padding: 45px;
+    line-height: 50px;
     margin-top: 30px;
+    background-color: #d9bba06d;
 }
 
 .work2 {
-    /* border: double 5px grey; */
-    -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0);
-    padding: 15px;
-    line-height: 40px;
+    border: inset 10px grey;
+    background-color: #d9bba06d;
+    padding: 45px;
+    line-height: 50px;
     margin-top: 30px;
 }
 
 .work3 {
-    -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0);
-    padding: 15px;
-    line-height: 40px;
+    border: inset 10px grey;
+    padding: 45px;
+    line-height: 50px;
     margin-top: 30px;
+    background-color: #d9bba06d;
 }
 /* Footer Container */
 .footer{
